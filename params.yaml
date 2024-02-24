@@ -1,0 +1,21 @@
+base:
+  project: ecom
+  random_state: 101
+  target_cal: Clicked on Ad
+
+data_source:
+  S3_or_source: data_given\advertising.csv
+
+load_data:
+  raw_dataset_csv: data\raw\advertising.csv
+
+split_data:
+  train_path: data\processed\train_advertising.csv
+  test_path: data\processed\test_advertising.csv
+  test_size: 0.3
+
+estimators:
+  Logistic_Regration:
+    params:
+
+model_dir: saved_models
