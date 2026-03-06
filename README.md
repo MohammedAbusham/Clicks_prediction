@@ -7,7 +7,7 @@ To start any MLOps project you need to follow the below steps:
 
 
 
-'''Bash
+'''bash
     git init
 '''
 
